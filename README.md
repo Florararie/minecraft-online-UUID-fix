@@ -16,8 +16,8 @@ This mod intercepts UUID assignment at login and fetches the real UUID from the 
 
 ## Requirements
 
-- Minecraft **1.21.11**
-- Fabric Loader **0.18.2+**
+- Minecraft **26.1.2**
+- Fabric Loader **0.19.3+**
 - Server-side only — does not need to be installed on clients
 
 ---
@@ -45,7 +45,7 @@ Requirements: JDK 21 ([Eclipse Adoptium](https://adoptium.net) — install the *
 # Windows — set JDK if you have both JDK and JRE installed
 $env:JAVA_HOME = "C:\Program Files\Eclipse Adoptium\jdk-21.0.10.7-hotspot"
 
-./gradlew build
+gradle build
 ```
 
 Output jar: `build/libs/modid-1.0.0.jar`
